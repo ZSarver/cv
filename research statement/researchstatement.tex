@@ -1,0 +1,133 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{lastpage}
+\usepackage{paralist}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\fancypagestyle{plain}{ %
+  \fancyhf{} % remove everything
+  \renewcommand{\headrulewidth}{0pt} % remove lines as well
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\begin{document}
+\fancyhf{}
+\rhead[Zachary Sarver]{\thepage / \pageref{LastPage}}
+%\chead{}{}
+\lhead[\thepage / \pageref{LastPage}]{Zachary Sarver}
+
+\lfoot[\today]{Research Statement}
+%\cfoot[Statement of Teaching Philosophy]{Statement of Teaching Philosophy}
+\rfoot[Research Statement]{\today}
+
+\title{Research Statement}
+\author{Zachary Sarver}
+\date{}
+\maketitle
+
+According to my mother, my answer to, ``what do you want to be when you grow
+up?'' was, from the time I was old enough to comprehend the question, ``a
+scientist.'' Before that it was, ``a lizard.'' In a very real sense I have
+always been interested in discovery. 
+
+As an undergraduate, I started out as a computer science major, only picking up
+mathematics as a second major in my sophomore year. I was fascinated with data
+structures, particularly trees and graphs, which can have remarkable properties
+when used wisely. As I progressed in my mathematics classes, I discovered that
+mathematical structures are also fascinating, and eventually developed an
+interest in algebraic structures in particular.
+
+\section{Undergraduate research}
+
+In my undergraduate studies I primarily concentrated on computer science
+research. I worked as an undergraduate research assistant at Jacksonville State
+University in fast encoding of multi-reference frame video encoding under
+Dr. Monica Trifas and Dr. Ming Yang. Briefly, modern video streaming is done by
+only occasionally transmitting a full video frame, called a reference frame. The
+rest of the frames are divided into small square blocks and estimated motion
+vectors from these small blocks to corresponding blocks in the nearest reference
+frame are transmitted. A multi-reference frame video encoder uses multiple
+reference frames to estimate these motion vectors, which results in
+higher-quality video, but encoding that is potentially orders of magnitude
+slower.
+
+In the last summer at Jacksonville State University, I traveled to Utah State
+University to work on a summer research project with Dr. Xiaojun Qi in computer
+vision, specifically image classification. We used a support vector machine to
+train the computer to classify images based on content, e.g. contains flags
+vs. contains birds.
+
+\section{Lie theory}
+
+My dissertation work and current research are in the area of Lie theory,
+particularly in semisimple Lie groups.
+
+A \emph{Lie group} is a group that also has the structure of a smooth manifold
+such that both multiplication and inversion of group elements are smooth maps. A
+smooth manifold itself is a topological space that is locally homeomorphic to a
+Euclidean space \( \mathbb{R}^n \),
+and for any two local homeomorphisms \( \varphi_1 \)
+and \( \varphi_2 \)
+whose domains intersect,
+\( \varphi_1 \circ \varphi_2^{-1}: \mathbb{R}^n \to \mathbb{R}^n \)
+must have partial derivatives of all orders. In my research I have restricted my
+attention to finite-dimensional Lie groups.
+
+To every Lie group $G$ there is an associated \emph{Lie algebra} \(
+\mathfrak{g} \), isomorphic as a vector space to the tangent space at the identity
+of $G$, and having an additional nonassociative algebra structure given by the
+Lie bracket. Every Lie algebra is isomorphic to a matrix algebra, whwere \(
+[X,Y] = XY - YX \) where juxtaposition is ordinary matrix multiplication. 
+
+A Lie algebra is \emph{simple} if it is nonabelian and its only ideals are
+itself and the trivial Lie algebra. A Lie algebra is \emph{semisimple} if it is
+the direct sum of simple Lie algebras. A Lie group is semisimple if its
+associated Lie algebra is semisimple.
+
+A semisimple Lie group admits a preorder, called Kostant's preorder, and
+inequalities with Kostant's preorder are primarily where my interest
+lies. Kostant's preorder has a very lengthy and technical definition involving
+the Iwasawa decomposition, complete multiplicative Jordan decomposition, and
+vector log-majorization, and I will omit the definition here. It is, however,
+worth note that many inequalities involving matrices and vector majorization
+have been generalized to semisimple Lie groups, and many more seem to be good
+candidates for doing so.
+
+\section{Matrix theory}
+
+Here's some specific stuff about Matrix theory, specifically future work in
+matrix means and generalizing audenaert's result
+
+\section{Topological groups}
+
+Here's some specific stuff about topological groups, and my interest in
+integration.
+
+\section{Multilinear algebra}
+
+Here's some specific stuff about multilinear algebra, and my interest in
+symmetry classes and tensor rank, as well as obstacles to studying tensor
+rank. (I.e. algebraic geometry)
+
+\section{Scholarship of education}
+
+IBL stuff probably.
+
+\section{Other interests}
+
+\begin{enumerate}
+\item Category theory
+\item Computability
+\item Quantum computation
+\item Programming languages
+\end{enumerate}
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
