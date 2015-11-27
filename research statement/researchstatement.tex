@@ -31,8 +31,10 @@
 
 According to my mother, my answer to, ``what do you want to be when you grow
 up?'' was, from the time I was old enough to comprehend the question, ``a
-scientist.'' Before that it was, ``a lizard.'' In a very real sense I have
-always been interested in discovery. 
+scientist.'' I watched \textit{Bill Nye the Science Guy} on TV every single
+chance I got, and devoured every single science book I could get my hands on. In
+a very real sense I have always been interested in discovery, although my
+interests turned to computer science and mathematics only as a young adult.
 
 As an undergraduate, I started out as a computer science major, only picking up
 mathematics as a second major in my sophomore year. I was fascinated with data
@@ -63,8 +65,8 @@ vs. contains birds.
 
 \section{Lie theory}
 
-My dissertation work and current research are in the area of Lie theory,
-particularly in semisimple Lie groups.
+My dissertation work and published results in the area of
+Lie theory, particularly in semisimple Lie groups.
 
 A \emph{Lie group} is a group that also has the structure of a smooth manifold
 such that both multiplication and inversion of group elements are smooth maps. A
@@ -80,7 +82,7 @@ attention to finite-dimensional Lie groups.
 To every Lie group $G$ there is an associated \emph{Lie algebra} \(
 \mathfrak{g} \), isomorphic as a vector space to the tangent space at the identity
 of $G$, and having an additional nonassociative algebra structure given by the
-Lie bracket. Every Lie algebra is isomorphic to a matrix algebra, whwere \(
+Lie bracket. Every Lie algebra is isomorphic to a matrix algebra such that \(
 [X,Y] = XY - YX \) where juxtaposition is ordinary matrix multiplication. 
 
 A Lie algebra is \emph{simple} if it is nonabelian and its only ideals are
@@ -97,34 +99,117 @@ worth note that many inequalities involving matrices and vector majorization
 have been generalized to semisimple Lie groups, and many more seem to be good
 candidates for doing so.
 
+Inverse limits of Lie groups have been studied, and only recently has a
+categorial description of generalized inverse limits been given. I am currently
+very interested in studying this topic.
+
 \section{Matrix theory}
 
-Here's some specific stuff about Matrix theory, specifically future work in
-matrix means and generalizing audenaert's result
+My current research is in matrix theory. For many mathematicians, a matrix is
+simply a convenient representation of a linear map. However, various spaces of
+matrices have rich structure as groups, algebras, topologies, and manifolds.
+
+A complex \( n \times n \)
+matrix is called \emph{positive definite} if it is hermitian and all its
+eigenvalues are greater than $0$. The set \( \mathbb{P}_n \)
+of \( n \times n \)
+positive definite matrices does not form a group, as the product of two positive
+definite matrices may not be hermitian. \( \mathbb{P}_n \)
+does, however, admit the structure of a Riemannian manifold, and for
+\( A,B \in \mathbb{P}_n \),
+and the geometric mean
+\( A \sharp B = A^{1/2}(A^{-1/2}BA^{-1/2})^{1/2}A^{1/2} \)
+is in fact the midpoint of the geodesic connecting $A$ and $B$. Note that if \(
+n = 1 \), i.e. $A$ and $B$ are positive numbers, then \( A \sharp B \) is the
+ordinary geometric mean.
+
+Audenaert recently proved in \cite{aud} that for $k$-many commuting pairs of
+positive definite matrices \( A_i \) and \( B_i \) and for any unitarily
+invariant norm \( \|\cdot\| \), \[ \left\| \sum_{i=1}^kA_iB_i\right\| \leq
+  \left\|\left(\sum_{i=1}^kA_i^{1/2}B_i^{1/2}\right)^2\right\| \leq
+  \left\|\left( \sum_{i=1}^kA_i \right)\left( \sum_{i=1}^kB_i\right)\right\| \]
+
+It has been conjectured that a similar inequality holds in the noncommuting case
+when matrix multiplication is replaced with the geometric mean.
 
 \section{Topological groups}
 
-Here's some specific stuff about topological groups, and my interest in
-integration.
+Much like a Lie group is a group that is a differentiable manifold, a
+topological group is a group with a simpler structure: it must also be a
+topological space with multiplication and inversion continuous. A topological
+space, and hence topological group, is locally compact if every point has a
+compact neighborhood.
+
+In \cite{whatever}, it is proved that every locally compact topological group
+has something resembling a differential structure, in that a derivative may be
+defined, four of them, in fact, that behaves remarkably similar to the ordinary
+derivative of calculus. 
+
+I lead a two-semester seminar, along with my friend and colleague Alan Bertl, to
+investigate the subject of integration in topological groups, during which we
+worked through a large swath of Pontryagin's classic test \cite{pon}.
+
+Much about integration in topological groups remains intriguing and mysterious
+to me, so I am keenly interested in pushing the boundaries of this field.
 
 \section{Multilinear algebra}
 
-Here's some specific stuff about multilinear algebra, and my interest in
-symmetry classes and tensor rank, as well as obstacles to studying tensor
-rank. (I.e. algebraic geometry)
+A multilinear map \( \alpha: V_1 \times \dots \times V_m \to W \) is a map that
+is linear in each coordinate. The difficulty in studying multilinear maps is
+that they are not linear maps, but they are easier to work with when viewed
+through the lens of tensors. There are several constructions of the tensor
+product that are all isomorphic for vector spaces over \( \mathbb{R} \) or \(
+\mathbb{C} \), so I will give a more concise one here. Let \( T: V_1 \dots
+\times \dots V_m \to W \) be a multilinear map satisfying \(
+\text{span}(\text{Im } T) = \prod_{i=1}^m\text{dim } V_i \). Then \(
+\bigotimes_{i=1}^m V_i = \text{span}(\text{Im } T) \). An element of the form \(
+v_1 \otimes \dots \otimes v_m \) with \( v_i \in V_i \) for all $i$ is called a
+\emph{pure tensor}, and a general element of \( \bigotimes_{i=1}^m V_i \) is a
+linear combination of pure tensors, hence we may conveniently define things on
+pure tensors and extend linearly.
 
-\section{Scholarship of education}
+Let \( S_m \)
+be the symmetric group on $m$ symbols. Let $G$ be a subgroup of \( S_m \),
+and let $G$ act on pure tensors by
+\( P(\sigma)(v_1 \otimes \dots \otimes v_m) = v_{\sigma^{-1}(1)} \otimes \dots
+\otimes v_{\sigma^{-1}(m)} \),
+where \( \sigma \)
+acts on \( 1, \dots, m \)
+by permutation. Extend this action linearly to get a group action, which we
+denote by the operator \( P(\sigma) \), on the entire tensor space.
 
-IBL stuff probably.
+Let \( \chi \) be an irreducible character of $G$. The operator \( T(G;\chi) =
+\frac{\chi(e)}{|G|}\sum_{\sigma\in G}\chi(\sigma)P(\sigma) \) is called the
+\emph{symmetrizer with respect to $G$ and \( \chi \)}. Symmetrizers are
+projections, and the image of a symmetrizer is called a \emph{symmetry class of
+tensors}.
+
+Symmetry classes of tensors are of varied combinatorial and algebraic
+interest. I have written routines for computations involving symmetry classes of
+tensors in the programming language GAP. Although there are many open problems
+in multilinear algebra, I am currently most interested in porting these routines
+to a speedier general purpose programming library to make them readily
+available.
+
+Tensors have seen a wide range of applications in the last decade or so, most
+notably in bioinformatics, computer vision, and numerical linear algebra. Of
+particular interest is the rank $r$ of a tensor, the lowest $r$ such that a
+tensor may be expressed as \( \sum_{i=1}^r\alpha_i v_1^i \otimes \dots \otimes
+v_m^i \). There are a number of different kinds of rank that are also of
+interest, and currently tensor rank is best studied with the methods of
+algebraic geometry.
 
 \section{Other interests}
 
-\begin{enumerate}
+Although I have not done any work or research in the following areas, I am also
+interested in the following:
+
+\begin{itemize}
 \item Category theory
 \item Computability
 \item Quantum computation
-\item Programming languages
-\end{enumerate}
+\item Programming language design
+\end{itemize}
 
 \end{document}
 %%% Local Variables:
