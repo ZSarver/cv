@@ -4,6 +4,8 @@
 \usepackage{paralist}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage[style=alphabetic]{biblatex}
+\usepackage{hyperref}
 
 \usepackage{fancyhdr}
 \setlength{\headheight}{15.2pt}
@@ -13,6 +15,8 @@
   \renewcommand{\headrulewidth}{0pt} % remove lines as well
   \renewcommand{\footrulewidth}{0pt}
 }
+
+\addbibresource{refs.bib}
 
 \begin{document}
 \fancyhf{}
@@ -123,7 +127,7 @@ is in fact the midpoint of the geodesic connecting $A$ and $B$. Note that if \(
 n = 1 \), i.e. $A$ and $B$ are positive numbers, then \( A \sharp B \) is the
 ordinary geometric mean.
 
-Audenaert recently proved in \cite{aud} that for $k$-many commuting pairs of
+Audenaert recently proved in \cite{au15} that for $k$-many commuting pairs of
 positive definite matrices \( A_i \) and \( B_i \) and for any unitarily
 invariant norm \( \|\cdot\| \), \[ \left\| \sum_{i=1}^kA_iB_i\right\| \leq
   \left\|\left(\sum_{i=1}^kA_i^{1/2}B_i^{1/2}\right)^2\right\| \leq
@@ -140,14 +144,14 @@ topological space with multiplication and inversion continuous. A topological
 space, and hence topological group, is locally compact if every point has a
 compact neighborhood.
 
-In \cite{whatever}, it is proved that every locally compact topological group
+In \cite{ea96}, it is proved that every locally compact topological group
 has something resembling a differential structure, in that a derivative may be
 defined, four of them, in fact, that behaves remarkably similar to the ordinary
 derivative of calculus. 
 
 I lead a two-semester seminar, along with my friend and colleague Alan Bertl, to
 investigate the subject of integration in topological groups, during which we
-worked through a large swath of Pontryagin's classic test \cite{pon}.
+worked through a large swath of Pontryagin's classic text \cite{po86}.
 
 Much about integration in topological groups remains intriguing and mysterious
 to me, so I am keenly interested in pushing the boundaries of this field.
@@ -210,6 +214,8 @@ interested in the following:
 \item Quantum computation
 \item Programming language design
 \end{itemize}
+
+\printbibliography
 
 \end{document}
 %%% Local Variables:
