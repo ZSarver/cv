@@ -1,0 +1,156 @@
+* Concept
+
+This is an interactive version of my CV, created using RPG Maker MV and exported
+to HTML5 for display on my website. Clever, huh? This document is for planning
+and outlining the experience. Brief notes here, with more complete notes to
+follow. 
+** Versions
+
+There will be two versions of the game, accessible via a menu when you select a
+new game. 
+*** Short Version
+
+A short version, for those who just want an interactive version of a
+CV. This mode has no battles, no equipment, no real gameplay even. It's just a
+stroll through a small, peaceful island.
+*** Long Version
+
+The long version attempts to be something of a game, and is designed to showcase
+my writing and game design skills.
+* New Game
+
+The EXPERIENCE CUSTODIAN (EC) walks onto the screen from the left and notices a
+gaping whole, through which she can see the player.
+
+EC: Jeez, what a mess, what a mess. What's with all this glass? Oh, hello!
+
+EC: This is unusual! Ordinarily I never get a chance to interact with the
+player, but it looks like someone has broken a hole in the -fourth wall-!
+
+EC: We're going to have to patch this up in a jiffy, but I'd say this is a lucky
+day for you! A lucky day for both of us! You see, I'm an -experience custodian-.
+
+EC: It's my job to clean up trimmings from cut scenes and discarded dialog, but
+I've been aching to prove myself to my bosses. So let me offer you a one time
+deal! 
+
+EC: I'm going to -customize your experience-! First, are you a boy or girl?
+
+This choice determines the player's appearance.
+
+EC: You'll also be able to choose whether you want to experience the -Hero's
+Tale- quickly, or at a more leisurely pace. Well?
+** (Hero's Tale? Who's the hero?)
+
+EC: Who's the hero?! The hero -Zachary Gerald Sarver-, of course! The man who's tale
+is recorded here on my side of the fourth wall!
+** (What's the difference?)
+
+EC: Well the short version is closer to what most people think of as an ordinary
+-CV- or -resume-.
+
+EC: It's just a quick stroll through the hero's life. It's a guided tour, so you
+won't encounter any monsters or have the opportunity to get lost.
+
+EC: The long version, on the other hand, is an -epic adventure-! It's a bit
+embellished, so it's for people who want to see the hero's -game design- and
+-writing- skills.
+
+EC: There will be monsters and mayhem, romance and revenge, and quite a bit more
+-gameplay- than one would usually find in a CV. 
+** (I want the short version.)
+
+EC: The short version it is! Let me just go rustle up a tour guide and some
+construction workers. The tour will begin in a jiffy.
+** (I want the long version.)
+
+EC: Well aren't you ambitious! There might be a hero's story about you one day!
+Well, it all began on a dark and stormy night...
+* THE SHORT VERSION
+** Opening Scene, the -Welcome Center-
+
+The Welcome Center is a small building with a glass case containing a handful of
+knickknacks. The TOUR GUIDE (TG) walks up to the player. She is a young,
+professionally dressed woman.
+
+TG: Hello, and welcome to the tour! If you proceed to the east, the tour
+continues on to the -Hall of Education-, the Hero's private -Research Library-,
+a quaint -Skillage- of workers showcasing the means by which the Hero lived, and
+finally the -Employment Mines-.
+
+TG: Before that, please take a moment to examine the -Awards and Honors- on
+display here in the welcome center.
+** Hall of Education
+
+The hall of education is a grand building, filled with scholars to explain my
+education and research, at both the graduate and undergraduate levels.
+** Research Library
+
+The research library is fresh and new, with wings dedicated to Lie theory,
+multilinear algebra, matrix theory, topological groups, and computer
+vision. Each wing is full of friendly actors posing as librarians to explain the
+material therein to the player.
+** Skillage
+
+The Skillage is a village full of actor-workers showing off the hero's
+skills. There is a -Classroom-, -Computer Laboratory-, and -Scholarium-.
+** Employment Mines
+
+They just keep getting deeper! The employment mines are where the relics of the
+hero's employment are stored. Each level is dedicated to a different job, with
+more recent jobs being deeper (don't think about it.)
+* THE LONG VERSION
+
+Legends speak of a time when chaos ruled. 
+
+Magic was wild and uncontrolled, giant forests spawned fearsome monsters, and
+terrifying -landships- full of bandits looted and pillaged.
+
+The -Hero- saved us all, and we have known more peaceful days ever since.
+
+It is time once again for someone to walk the path of the hero! It is time for a
+new tale of courage and triumph! It is now time for YOU to be the hero we need!
+
+(Of course, none of these problems are actually solved by the hero. The hero did
+nothing about the magic, the forests still stand are remain full of bears and
+wolves, as as for the landships, the common people now call them home. The
+non-nomadic peoples of the world were all killed or kidnapped, adopted wholesale
+into the culture of the Shipwrights. The Shipwrights, however, adopted their
+legends, and now believe themselves to have been non-nomadic. They believe that
+they took to the captured landships to escape their destroyed villages, to find
+shelter in a harsh world.)
+
+The game begins upon the Landship Muscadine. OLD ANTAL (OA) is telling a story
+to some CHILDREN.
+
+OA: And though the hero vanquished the evil Shipwrights, our villages had been
+destroyed. So we took their landships and made them our new homes.
+
+CHILD: Is it true that the ship we live on used to move?
+
+OA: The Muscadine used to roam allllll over the land, but once we started living
+in it we stopped up the wheels so we could stay put.
+
+YOU: Hey old man, MARISH says that if you want to pick blueberries today, you
+need to do it now. There's a storm brewing.
+
+OA: That daughter of mine! Once she had kids of her own she started mothering me
+like one of them.
+
+YOU: Me too, but I'm not going to complain about her blueberry pie!
+
+OA: Well, if I have to get moving to get a pie, I'd better get moving.
+
+CHILDREN: Awwww!
+
+OA: Now now, we'll have another story tomorrow, but only if you're good and you
+go home to help your moms.
+
+The scene ends, and the sounds of a great storm are heard. YOU are alone in your
+cabin. You hear a great crunch, are flung roughly across the room, and crashing
+noises ensue. In the storm, the Landship Muscadine has come loose and rolled
+downhill and into the -Forest-. This is nearly impossible, however, as a
+concrete foundation had been build for the landship nearly a hundred years ago,
+in the time of OLD ANTAL's father. The scene outside your cabin is of chaos and
+confusion.
+
