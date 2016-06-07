@@ -1,0 +1,114 @@
+Zachary Sarver
+Zachary.Sarver@gmail.com
+http://zacksarver.rocks
+
+Education
+---------
+
+2010--2016 Doctor of Philosophy in Mathematics, Auburn
+ University, Alabama - Expected graduation May 2016
+ 
+2005--2009 Bachelor of Science in Mathematics and Computer
+  Science, Jacksonville State University, Alabama - Magna cum
+  laude - Distinguished Graduate in
+  Mathematics - Special Honors in Computer Science
+
+Experience
+----------
+
+2010--Present Graduate Teaching Assistant, Auburn University, Alabama
+
+* Oversaw computer-based pre-calculus classes.
+* Worked as a tutor for Pre-Calculus, Calculus I, Calculus II, and
+  Calculus III.  
+* Served as the instructor of record for six courses, several more than once: Pre-Calculus, Calculus
+  with Business Applications I, Calculus I, Calculus II, Calculus III, Linear
+  Algebra  
+** Wrote lectures, tests, assignments, and finals for every course taught.
+** Worked with several students so that they could receive honors credit
+    for an otherwise non-honors class.
+** Excellent student evaluations. Detailed records available upon
+    request.
+** Taught using methods from Moore-style teaching and inquiry based learning
+
+2008--2009 Programmer, Envizions Inc., Anniston, Alabama
+
+* Designed and implemented a custom user interface and associated daemons and
+helper programs in C, C++, and Ruby.
+* Envizions was a startup based in Anniston, AL that produced Linux-based
+set-top boxes for enjoying games and media on your TV.}
+
+2007--2008 Undergraduate Research Assistant, Jacksonville Statue
+  University, Jacksonville, Alabama
+
+* Aided Dr. Monica Trifas and Dr. Ming Yang in their research in multi-reference
+frame video encoding. Reviewed code and implemented functions in C.
+
+2006--2008 Tutor, ACE Tutoring Center, Jacksonville, Alabama
+
+* The Academic Center for Excellence is a Jacksonville State University program
+for providing free tutoring to JSU undergrades. Tutored undergraduate
+mathematics and computer science students primarily, as well as the occasional
+English Composition student.
+
+Achievements
+------------
+
+2014 Winner, City of Auburn Municipal Hackathon
+
+* For https://github.com/IsToomersCornerBeingRolledRightNow ``Is Toomer's Corner
+Being Rolled?'' a webapp that uses image recognition techniques on still images
+periodically captured from a municipal webcam to determine if Toomer's Corner is
+being rolled, an Auburn football victory tradition.
+
+2005 Full scholarship to Jacksonville State University
+
+2005 Valedictorian, Sacred Heart Catholic School, Anniston, Alabama
+
+Computer skills
+--------------------
+
+Basic knowledge:
+* Perl * Go
+* Objective-C * MOS 6502 Assembly
+* Zilog Z80 Assembly * AngularJS
+* GAP
+
+Intermediate knowledge:
+* C++ * Ruby
+* Java * Rust
+* html/css} * LaTeX
+* Microsoft Windows * POSIX libraries
+* SDL
+
+Advanced Skills
+* C * Python
+* Haskell * Linux
+
+Communication Skills
+----------------------------
+
+2010--2016 Instructor at Auburn University
+2016 Doctoral Defense
+2015 Spoke on my research at the 5th International Conference on
+  Matrix Analysis and Applications at Nova Southeastern University
+2015 Spoke on the category of graphs at the Southern Combinatorics,
+  Graphy Theory, and Game Theory Mini-conference at Lamar University
+2015 My paper "An Extension of Wang-Gong Monotonicity Result to Semisimple Lie
+  Groups" accepted for publication in Special Matrices
+2015 Spoke at Auburn University College of Science and Mathematics
+interdisciplinary colloquium
+2015 Preliminary oral defense of my research
+2015 https://youtu.be/s97ire0Hmpc?t=18m23s Impromptu five-minute talk at Legacy
+  of R.L. Moore conference in Austin, TX
+2014 Spoke at the Graduate Student Combinatorics Conference
+2014 Spoke in Auburn's graduate student and linear algebra seminars
+
+Interests
+-----------
+
+* Programming languages * Multilinear algebra
+* Video games * Sega
+* Science fiction novels * Music
+* Cats * Constructed spoken languages
+* Puzzles * Puzzle design
